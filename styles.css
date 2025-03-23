@@ -1,4 +1,10 @@
 /* General Style */
+
+html {
+    scroll-padding-top: 100px; /* Added */
+    scroll-behavior: smooth; /* Added */
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -20,6 +26,8 @@ body {
     top: 0;
     z-index: 100;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 80px; /* Changed */
+    box-sizing: border-box; /* Changed */
 }
 
 .navbar ul {
@@ -96,6 +104,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    scroll-margin-top: 100px; /* Changed */
 }
 
 /* Hover Effect for Sections */
