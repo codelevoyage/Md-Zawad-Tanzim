@@ -61,6 +61,7 @@ body {
     justify-content: center; /* Center everything */
     padding: 0; /* No padding */
     margin: 0; /* No margin */
+    flex-wrap: wrap; /* Allow wrapping if needed */
 }
 
 .navbar li {
@@ -235,13 +236,8 @@ body {
         max-width: 95%; /* Wider */
     }
 
-    .navbar ul {
-        flex-direction: column; /* Stack items */
-        align-items: center; /* Center */
-    }
-
     .navbar li {
-        margin: 8px 0; /* Space between */
+        margin: 0 10px; /* Smaller space between items */
     }
 
     .navbar a, .navbar .theme-toggle {
@@ -291,12 +287,12 @@ body {
         margin: 5px auto; /* Less space */
     }
 
-    .navbar a, .navbar .theme-toggle {
-        font-size: 12px; /* Even smaller text */
+    .navbar li {
+        margin: 0 8px; /* Even smaller space */
     }
 
-    .navbar li {
-        margin: 6px 0; /* Less space */
+    .navbar a, .navbar .theme-toggle {
+        font-size: 12px; /* Even smaller text */
     }
 
     .about-me img {
