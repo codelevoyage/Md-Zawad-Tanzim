@@ -63,14 +63,16 @@ body {
     margin: 0 auto;
 }
 
-.about-me img { /* Changed from .hero img */
+.about-me img {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    max-width: 200px; /* Changed from width: 200px */
+    height: auto; /* Changed from height: 200px */
     border: 5px solid #f5f5f5;
     display: block;
     margin: 0 auto;
-    object-fit: cover;
+    object-fit: contain; /* Changed from object-fit: cover */
+    image-rendering: -webkit-optimize-contrast; /* Added */
+    image-rendering: crisp-edges; /* Added */
 }
 
 .about-me h1 { /* Changed from .hero h1 */
