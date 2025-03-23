@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Basic setup for the page -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Md Zawad Tanzim</title>
-    <!-- Add Google Font: Roboto -->
+    <title>Md Zawad Tanzim - Portfolio</title>
+    
+    <!-- Link to Google Fonts for nice text -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Link to our CSS file -->
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <!-- Navigation Bar Section -->
+<body class="dark-mode"> <!-- Dark mode is default -->
+    <!-- Navigation bar with links and toggle -->
     <nav class="navbar section">
         <ul>
             <li><a href="#about">About</a></li>
@@ -17,24 +21,25 @@
             <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><span id="theme-toggle" class="theme-toggle">Light</span></li> <!-- Toggle as nav item -->
         </ul>
     </nav>
 
-    <!-- About Me Section (formerly Hero) -->
+    <!-- About Me section with photo and social links -->
     <section class="about-me section">
         <div class="about-me-content">
             <img src="https://github.com/codelevoyage/Md-Zawad-Tanzim/blob/main/Headshot%20(1).JPG?raw=true" alt="Md Zawad Tanzim">
             <h1>Md Zawad Tanzim</h1>
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/mdzawadtanzim/" target="_blank">LinkedIn</a>
-                <a href="zawadtanzim@gmail.com">Email</a>
+                <a href="mailto:zawadtanzim@gmail.com">Email</a>
                 <a href="https://x.com/codelevoyage" target="_blank">Twitter</a>
                 <a href="https://github.com/codelevoyage" target="_blank">GitHub</a>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- About section with info about me -->
     <section id="about" class="section">
         <h2>About Me</h2>
         <p>I am an enthusiastic and aspiring software engineer & financial professional dedicated to continuous learning, personal growth, and positively impacting my peers and community.</p>
@@ -42,7 +47,7 @@
         <p>Passionate about problem-solving, technology, and bridging the gap between finance and software engineering.</p>
     </section>
 
-    <!-- Skills Section -->
+    <!-- Skills section listing what I know -->
     <section id="skills" class="section">
         <h2>Technical Skills</h2>
         <div class="skills-list">
@@ -53,7 +58,7 @@
         </div>
     </section>
 
-    <!-- Experience Section -->
+    <!-- Experience section with my jobs -->
     <section id="experience" class="section">
         <h2>Experience</h2>
         <div class="experience-item">
@@ -72,7 +77,7 @@
         </div>
     </section>
 
-    <!-- Education Section -->
+    <!-- Education section with my learning -->
     <section id="education" class="section">
         <h2>Education</h2>
         <div class="education-item">
@@ -95,7 +100,7 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Projects section with my work -->
     <section id="projects" class="section">
         <h2>Projects</h2>
         <div class="projects-grid">
@@ -113,5 +118,7 @@
         <p class="project-note">Stay tuned for updates as I continue to work on them!</p>
     </section>
 
+    <!-- Link to our JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>
